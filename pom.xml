@@ -64,7 +64,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>pe.edu.utp.gestionhospital/pe.edu.utp.gestionhospital.HelloApplication
+                            <mainClass>pe.edu.utp.gestionhospital/pe.edu.utp.gestionhospital.HospitalManagement
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

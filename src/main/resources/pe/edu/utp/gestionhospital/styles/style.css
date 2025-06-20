@@ -1,0 +1,92 @@
+/* Contenedor principal */
+.main-container {
+    -fx-background-color: linear-gradient(to right, #3f51b5 0%,#303f9f 35%, #512da8 60%, #673ab7 100%);
+}
+
+/* Header/Título principal */
+.header-pane {
+    -fx-background-color: linear-gradient(to right, #3f51b5 0%,#303f9f 35%, #512da8 60%, #673ab7 100%);
+}
+
+.main-title {
+    -fx-fill: white;
+}
+
+/* Contenedor del contenido */
+.content-container {
+    -fx-background-color: transparent;
+}
+
+/* Panel lateral (sidebar) */
+.sidebar-pane {
+    -fx-background-color: #191a1c;
+}
+
+.sidebar-container {
+    -fx-background-color: #1a1e1f;
+}
+
+/* Botones del menú lateral */
+.menu-button {
+    -fx-background-color: transparent;
+    -fx-alignment: CENTER_LEFT;
+    -fx-text-fill: #b2bec3;
+}
+
+.menu-button:hover {
+    -fx-background-color: #1a1e1f;
+    -fx-text-fill: white;
+}
+
+.menu-button:pressed {
+    -fx-background-color: #1a1e1f;
+    -fx-text-fill: #426792;
+}
+
+/* Botón activo/seleccionado */
+.menu-button-active {
+    -fx-background-color: linear-gradient(to right, #5b67d4, #6b77e4);
+    -fx-text-fill: white;
+    -fx-border-color: transparent transparent transparent #3b82f6;
+    -fx-border-width: 0 0 0 4;
+}
+
+/* Panel principal de contenido */
+.main-content-pane {
+    -fx-background-color: #2d3436;
+}
+
+/* Estilos adicionales para elementos del dashboard */
+.dashboard-card {
+    -fx-background-color: linear-gradient(to bottom right, #5b67d4, #6b77e4);
+}
+
+.dashboard-number {
+    -fx-fill: white;
+}
+
+.dashboard-label {
+    -fx-fill: rgba(255,255,255,0.9);
+}
+
+/* SplitPane personalizado */
+.split-pane {
+    -fx-background-color: transparent;
+}
+
+.split-pane .split-pane-divider {
+    -fx-background-color: #191a1c;
+}
+
+/* Efectos adicionales para mejorar la apariencia */
+.card-urgent {
+    -fx-background-color: linear-gradient(to bottom right, #e74c3c, #c0392b);
+}
+
+.card-medium {
+    -fx-background-color: linear-gradient(to bottom right, #f39c12, #e67e22);
+}
+
+.card-low {
+    -fx-background-color: linear-gradient(to bottom right, #27ae60, #229954);
+}
